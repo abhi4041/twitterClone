@@ -1,0 +1,467 @@
+/* Pen Title */
+.pen-title {
+  padding: 50px 0;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+.pen-title h1 {
+  margin: 0 0 20px;
+  font-size: 48px;
+  font-weight: 300;
+}
+.pen-title span {
+  font-size: 12px;
+}
+.pen-title span .fa {
+  color: #33b5e5;
+}
+.pen-title span a {
+  color: #33b5e5;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav-profile-img {
+  border-radius: 4px;
+  border-color: white;
+  border-style: solid;
+  height: 35px;
+  width: 55px; 
+}
+
+/* Form Module */
+.form-module {
+  position: relative;
+  background: #ffffff;
+  max-width: 320px;
+  width: 100%;
+  border-top: 5px solid #33b5e5;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+.form-module .toggle {
+  cursor: pointer;
+  position: absolute;
+  top: -0;
+  right: -0;
+  background: #33b5e5;
+  width: 30px;
+  height: 30px;
+  margin: -5px 0 0;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center;
+}
+.form-module .toggle .tooltip {
+  position: absolute;
+  top: 5px;
+  right: -65px;
+  display: block;
+  background: rgba(0, 0, 0, 0.6);
+  width: auto;
+  padding: 5px;
+  font-size: 10px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+.form-module .toggle .tooltip:before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: -5px;
+  display: block;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid rgba(0, 0, 0, 0.6);
+}
+.form-module .form {
+  display: none;
+  padding: 40px;
+}
+.form-module .form:nth-child(2) {
+  display: block;
+}
+.form-module h2 {
+  margin: 0 0 20px;
+  color: #33b5e5;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+}
+.form-module input {
+  outline: none;
+  display: block;
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  margin: 0 0 20px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  font-wieght: 400;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.form-module input:focus {
+  border: 1px solid #33b5e5;
+  color: #333333;
+}
+.form-module button {
+  cursor: pointer;
+  background: #33b5e5;
+  width: 100%;
+  border: 0;
+  padding: 10px 15px;
+  color: #ffffff;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.form-module button:hover {
+  background: #178ab4;
+}
+.form-module .cta {
+  background: #f2f2f2;
+  width: 100%;
+  padding: 15px 40px;
+  box-sizing: border-box;
+  color: #666666;
+  font-size: 12px;
+  text-align: center;
+}
+.form-module .cta a {
+  color: #333333;
+  text-decoration: none;
+}
+.profile {
+  text-align: center;
+  position: absolute;
+  left: 200px;
+  top: 100px;
+  width: 350px;
+  height: 250px;
+  border-radius: 6px;
+  background: linear-gradient(180deg, #5599FF 50%, #F8F8F8 50%);
+}
+.profile_pic {
+  position: absolute;
+  left: 10px;
+  top: 80px;
+  border-radius: 6px;
+  border-color: white;
+  border-style: solid;
+}
+.profile_name {
+  text-align: left;
+  position: absolute;
+  left: 105px;
+  top: 130px;
+}
+.tweet_cnt_row{
+  position: absolute;
+  left: 10px;
+  top: 195px;
+  right: 30px;
+  text-align: center;
+}
+.left_tweets{
+  display: inline-block;	
+  float: left;
+  text-align: left;
+}
+.center_following{
+  display: inline-block;	
+  margin: 0 auto;
+  text-align: left;
+}
+.right_followers{
+  display: inline-block;	
+  float: right;
+  text-align: left;
+}
+.main {
+  text-align: center;
+  background-color: #F8F8F8;
+  position: absolute;
+  left: 570px;
+  top: 100px;
+  width: 700px;
+  height:1000px;
+  border-radius: 6px;
+}
+.tweet_area {
+  background-color: #e6f7ff;
+  overflow:auto;
+  width:auto;
+  margin:auto; 
+  height:190px;
+}
+.retweet_area {
+  background-color: #e6f7ff;
+  overflow:auto;
+  width:auto;
+  margin:auto; 
+  height:250px;
+  width: 100%;
+}
+.tweet_area_pic {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 6px;
+}
+.retweet_area_pic {
+  position: absolute;
+  left: 20px;
+  top: 110px;
+  width: 100px;
+  height: 100px;
+  border-radius: 6px;
+}
+.tweet_area_form {
+  position: absolute;
+  left: 110px;
+  top: 10px;
+  overflow: hidden;
+}
+.tweet_area_textarea {
+	width: 580px;
+	height: 120px;
+	border-radius: 6px;
+	border: 3px thin #cccccc;
+	padding: 5px;
+	font-size: 18px;
+	resize: none;
+}
+.retweet_area_textarea {
+	width: 580px;
+	height: 100px;
+	border-radius: 6px;
+	border: 3px thin #cccccc;
+	padding: 5px;
+	font-size: 18px;
+	resize: none;
+}
+.retweet_area_comments {
+	width: 580px;
+	height: 50px;
+	border-radius: 6px;
+	border: 3px thin #cccccc;
+	padding: 5px;
+	font-size: 18px;
+	resize: none;
+}
+.tweet_area_button {
+	background-color: #5599FF;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 20px;
+	margin-right: 8px;
+	border-radius: 6px;
+	border-color: #FFFFFF;
+	float: right;
+	height: 45px;
+	width: 100px;
+}
+.timeline {
+  	position: absolute;
+  	left: 0px;
+  	top: 190px;
+  	overflow: hidden;
+}
+.tweets_display_div{
+ 	background-color: #F8F8F8;
+ 	width: 700px;
+ 	height: 100px;
+ 	padding: 10px;
+}
+.tweets_display_area_pic{
+	position: absolute;
+	left: 20px;
+}
+.tweets_display_tweet_msg{
+	width: 580px;
+	height: 80px;
+	font-size: 18px;
+	float: left;
+	left: 100px;
+	position: absolute;
+}
+.tweets_display_retweets{
+	width: 580px;
+	height: 20px;
+	float: none;
+	left: 200px;
+	top: 50px;
+}
+.trend {
+  text-align: left;
+  background-color: #F8F8F8;
+  position: absolute;
+  left: 200px;
+  top: 370px;
+  width: 350px;
+  height: 550px;
+  border-radius: 6px;
+  padding: 0px 0px 0px 20px;
+}
+.follow {
+  text-align: left;
+  background-color: #F8F8F8;
+  position: absolute;
+  left: 1290px;
+  top: 100px;
+  width: 340px;
+  height: 460px;
+  border-radius: 6px;
+  padding: 0px 0px 0px 20px;
+}
+.prof-bg-banner {
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 60px;
+  width: 1873px;
+  height: 250px;
+  background: linear-gradient(180deg, #5599FF 70%, #F8F8F8 30%);
+  margin: 15px;
+  margin-top: 0px;
+}
+.prof-tweet-cnt-row{
+  position: absolute;
+  left: 480px;
+  top: 190px;
+  right: 1000px;
+  text-align: center;
+}
+.prof-prof-pic-div{
+  position: absolute;
+  left: 80px;
+  top: 60px;
+  border-radius: 10px;
+  border-color: white;
+  border-style: solid;
+  border-width: 8px;
+  height: 280px;
+  width: 280px;
+  padding: 0px;
+}
+.prof-prof-pic-img{
+  border-style: solid;
+  height: 272px;
+  width: 264px;
+  border-color: white;
+  border-radius: 10px;
+}
+.prof-edit-prof-btn{
+  position: absolute;
+  right: 100px;
+  top: 187px;
+  border-style: solid;
+  height: 50px;
+  width: 100px;
+  border-radius: 6px;
+  padding: 0px;
+  text-align: center;
+}
+.prof-prof-name-div{
+  float: left;
+  text-align: left;
+}
+.prof-trend {
+  text-align: left;
+  background-color: #F8F8F8;
+  position: absolute;
+  right: 175px;
+  top: 370px;
+  width: 350px;
+  height: 550px;
+  border-radius: 6px;
+  padding: 0px 0px 0px 20px;
+}
+.prof-main {
+  text-align: center;
+  background-color: #F8F8F8;
+  position: absolute;
+  left: 500px;
+  top: 350px;
+  width: 700px;
+  height:100vh;
+  border-radius: 6px;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 8px;
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.who_to_follow_div{
+ 	background-color: #F8F8F8;
+ 	width: 200px;
+ 	height: 100px;
+ 	padding: 10px;
+}
+.follow_username_div{
+	position: absolute;
+	left: 100px;
+}
+.retweetBtn{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
